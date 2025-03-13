@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, nav, main{
+    width: auto;
+    background-color: #FB6376;
+    color: snow;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+header{
+    text-align: center;
+    font-size: 80px;
+    height: 110px;
+     font-family: "Amarante", serif;
+}
+
+nav{
+    width: auto;
+    height: auto;
+    background-color: #FCB1A6;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li {
+    width: 100px;
+    list-style-type: none;
+    background-color: antiquewhite;
+    color: blueviolet;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+}
+
+nav ul li a:link, nav ul li a:visited{
+    color: #854836;
+}
+
+nav ul li a:hover{
+    color: #5D2A42;
+    width: 95px;
+    font-size: 18px;
+}
+
+section{
+    width: 80%;
+    background-color: #5D2A42;
+    color: #E5D0AC;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+}
+
+main{
+    height: auto;
+    
+}
+
+h2, p {
+    margin-bottom: 30px;
+}
+
+h2{
+    color: #FFF9EC;
+}
+
+h5{
+    text-align: right;
+}
+#tabla_1{
+    width: 80%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tabla_1 th, #tabla_2 th{
+    background-color: #CBA35C;
+}
+#tabla_1 td{
+    background-color: #754E1A;
+}
+#tabla_1 th, #tabla_1 td, #tabla_2 th, #tabla_2 td, #tabla_3 th, #tabla_3 td {
+    padding left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+
+#tabla_2{
+    width: 100%;
+    border-style: solid;
+    border-color: yellow;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+#tabla_2 th, #tabla_2 td{
+    border: 5px solid yellow; 
+}
+
+#tabla_2 tbody tr:nth-child(even){
+    background-color: #B59F78;
+}
+
+#tabla_2 tbody tr:nth-child(odd){
+    background-color: #543A14;
+}
+
+#tabla_3{
+    width: 80%;
+    background-color: #754E1A;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tabla_3 tr:hover{
+    background-color: lavenderblush;
+    color: black;
+}
+#tabla_3 td{
+    height: 50px;
+    padding-left: 10px;
+}
+
+#tabla_3 th{
+    height: 60px;
+   
+}
+
+#tabla_3 th, #tabla_3 td{
+    border: 2px solid darklategray;    
+}
+
+
+h1,h6{
+    text-align: center;
+    font-size: 20px;
+}
+h3{
+    text-align: center;
+}
+h6{
+    font-size: 18px;
+}
+
+footer{
+    text-align: center;
+    background-color: #b8aa95 ;
+    height: 60px;
+    margin-top: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+.imagenes_box{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.imagen_flotante{
+    margin right: 40px;
+    float: left;
+    width: 20%;
+}
+
+.imagen_flotantedr{
+    float: right;
+    width: 200px;
+}
+
+.fondo{
+    background-image: url(medusa.jpg);
+    background-size: cover;
+}
+
+.imagen_enlace{
+    width: 10%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    
+}
+
+.section_filtro{
+    color: azure;
+    text-align: center;
+}
+
+
+.section_filtro img{
+    width: 25%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+form{
+    width: 50%;
+    height: auto;
+    background-color: lavenderblush;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+}
+
+label{
+    color: lightcoral;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+input[type=text], input[type=pasword]{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: azure;
+    color: antiquewhite;
+    border: 3px solid pink;
+    
+}
+
+
+input[type=submit]{
+    width: 20%;
+    min-width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 10px;
+    background-color: violet;
+    color: darkviolet;
+    border: 3px solid blue;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+input[type=text]:focus, input[type=pasword]:focus{
+    color: burlywood;
+    background-color: black;
+    border: 3px solid pink;
+}
+
+section p{
+    font-family: "Funnel Sans", sans-serif;
+}
+
